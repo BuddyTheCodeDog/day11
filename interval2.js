@@ -1,4 +1,4 @@
-function logOut5secondsOnce(input){
+function logOut5secondsInterval(input){
     setInterval(function(){
 
         console.log(input);
@@ -7,4 +7,4 @@ function logOut5secondsOnce(input){
 
 }
 
-logOut5secondsOnce(420);
+logOut5secondsInterval(420);
